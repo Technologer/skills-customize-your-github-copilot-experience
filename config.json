@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-auth-protected-routes",
+      "title": "FastAPI Authentication and Protected Routes",
+      "description": "Implement token-based authentication and role-protected endpoints in FastAPI.",
+      "path": "assignments/fastapi-auth-protected-routes",
+      "dueDate": "2026-06-25",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
