@@ -1,19 +1,47 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python (Hangman)
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a playable Hangman game in Python to practice loops, conditionals, string manipulation, and user input.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Set Up the Game State
 
-## ✅ Must Have's
+#### Description
+Start from the provided starter code and initialize the variables needed to run the game.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly choose a secret word from the provided word list.
+- Initialize game state variables, including guessed letters, incorrect guesses, and maximum allowed incorrect guesses.
+- Display the word progress using placeholders (for example: `_ _ _ _ _`).
+
+### 🛠️ Implement the Main Game Loop
+
+#### Description
+Create the loop that asks the user for guesses, updates the game state, and provides helpful feedback.
+
+#### Requirements
+Completed program should:
+
+- Prompt the user to guess one letter at a time.
+- Validate input so only a single alphabetic character is accepted.
+- Update correctly guessed letters and reveal them in the word progress display.
+- Decrease remaining attempts when a guess is incorrect.
+- Prevent duplicate guesses from counting as new attempts.
+
+### 🛠️ Finish Conditions and Results
+
+#### Description
+Add clear ending conditions so the game stops at the right time and tells the player the result.
+
+#### Requirements
+Completed program should:
+
+- End with a win message when the full word is guessed.
+- End with a lose message when the player runs out of attempts.
+- Reveal the secret word at the end of the game.
+- Keep output clear and student-friendly throughout gameplay.
